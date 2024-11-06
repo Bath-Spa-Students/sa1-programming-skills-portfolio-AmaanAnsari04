@@ -9,8 +9,7 @@ In this exercise, you'll create a program that stores and prints your name, home
 3. Use variables with appropriate data types for each piece of information.
 '''
 
-Your_info = {"Name": "Amaan Ansari",
+Your_info = {"Name": "Amaan Ansari",   #creating a dictionary
             "Hometown": "Karachi",
             "Age": 20}
-# print (f"Name: {Your_info["Name"]}")
-print(f"{Your_info.get('Name')}  \n{Your_info.get('Hometown')} \n{Your_info.get('Age')}")
+print(f"{Your_info.get('Name')}  \n{Your_info.get('Hometown')} \n{Your_info.get('Age')}") #using the /n function to print them on different lines
