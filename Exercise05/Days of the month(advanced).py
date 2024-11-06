@@ -33,13 +33,13 @@ try:
     Month = int(input("Enter the Month number (1-12): "))  #asking for input for month number
     if 1 <= Month <= 12:  #check for if the month is between the integers 1 and 12
         if Month == 2:
-            leap_year = input("Is it a leap year (yes/no): ")
-            if leap_year == "yes":
-                print (f"{Months.get(str(Month))} has 29 days in it!")
+            leap_year = input("Is it a leap year (yes/no): ") #if input is 2, it asks if its a leap year
+            if leap_year == "yes": 
+                print (f"{Months.get(str(Month))} has 29 days in it!") #print statment if yes
             elif leap_year == "no":
-                print (f"{Months.get(str(Month))} has {Days.get(str(Month))} days in it!") #print statement if input is correct
+                print (f"{Months.get(str(Month))} has {Days.get(str(Month))} days in it!") #print statement if no
             else:
-                print ("Enter yes/no only!")
+                print ("Please Enter yes/no only!") #print statemtn if input is something other than yes or no
     else:
         print ("Please enter a valid month number only") #print statment if input is not correct
 except ValueError:
