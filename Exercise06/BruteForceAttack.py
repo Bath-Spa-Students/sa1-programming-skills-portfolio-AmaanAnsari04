@@ -12,31 +12,31 @@ Write a program that simulates a password entry system. The correct password is 
 
 Modify the program to include a maximum of 5 password attempts. If the user enters the wrong password, inform them of the remaining attempts. If the maximum number of attempts is reached, inform the user that the authorities have been alerted.
 '''
-password = 12345
+password = 12345 #this is the correct password needed
 while True:
-    Code = int(input("Please enter the password: "))
-    if Code == 12345:
-        print ("That is the correct password!")
+    Code = int(input("Please enter the password: ")) #ask for password input
+    if Code == 12345:   
+        print ("That is the correct password!") #print statement if correct
     else:
-        print ("That is an incorrect password. You gave 4 more tries")
+        print ("That is an incorrect password. You gave 4 more tries") #print statment if incorrect and let them know how my tries they have left
         Code = int(input("Please enter the password: "))
         if Code == 12345:
             print ("That is the correct password!")
         else:
-            print ("That is an incorrect password. You have 3 more tries")
+            print ("That is an incorrect password. You have 3 more tries") #print statment if incorrect and let them know how my tries they have left
             Code = int(input("Please enter the password: "))
             if Code == 12345:
                 print ("That is the correct password!")
             else:
-                print ("That is an incorrect password. You have 2 more tries")
+                print ("That is an incorrect password. You have 2 more tries") #print statment if incorrect and let them know how my tries they have left
                 Code = int(input("Please enter the password: "))
                 if Code == 12345:
                     print ("That is the correct password!")
                 else:
-                    print ("That is an incorrect password. You have 1 more try")
+                    print ("That is an incorrect password. You have 1 more try") #print statment if incorrect and let them know how my tries they have left
                     Code = int(input("Please enter the password: "))
                     if Code == 12345:
                         print ("That is the correct password!")
                     else:
-                        print ("That is an incorrect password. This has been reported to the authorities.")
+                        print ("That is an incorrect password. This has been reported to the authorities.") #print statment if incorrect and let them know they've been reported to the authorities
                         break
