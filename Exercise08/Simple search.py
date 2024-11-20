@@ -8,13 +8,6 @@ Write a program that searches for a specific string within a list of strings. Th
 2. Implement the search functionality based on user input.
 '''
 
-# Names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] #creating a list with all the names
-# Student_number = int(input("input studen number(0 to 5):")) #take input from user for which student to search for
-# if 0 <= Student_number <=5:
-#     print (Names[Student_number])
-# else:
-#     print ("Please enter a valid studen number.")
-
 try:
     Names = ["Jake", "Zac", "Ian", "Ron", "Sam", "Dave"] #creating a list with all the names
     Student_number = int(input("Enter studen number(0 to 5):")) #take input from user for which student to search for
