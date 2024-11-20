@@ -25,7 +25,7 @@ while True:
         else:
             print ("That is an incorrect password. You have 3 more tries") #print statment if incorrect and let them know how my tries they have left
             Code = int(input("Please enter the password: "))
-            if Code == 12345:
+            if Code == 12345: 
                 print ("That is the correct password!")
             else:
                 print ("That is an incorrect password. You have 2 more tries") #print statment if incorrect and let them know how my tries they have left
