@@ -7,7 +7,7 @@ that the player just earned 5 points.
 version that fails will have no output.)
 '''
 
-alien_color = "green"
+alien_color = "green" 
 if alien_color == "green":
     print ("You have earned 5 points!")
 

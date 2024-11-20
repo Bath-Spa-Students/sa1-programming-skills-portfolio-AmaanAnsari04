@@ -4,4 +4,4 @@ message that reveals your favorite number. Print that message.
 '''
 
 fav_num = 4
-print (f"My favourite number is {fav_num}.")
+print (f"My favourite number is {fav_num}!")

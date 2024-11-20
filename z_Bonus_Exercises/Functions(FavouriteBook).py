@@ -6,7 +6,7 @@ title as an argument in the function call.
 '''
 
 def favourite_book(title):
-    print (f"One of my recent favourite books is {title}!")
+    print (f"One of my recent favourite books is {title}!") 
 
 def main():
     book = input("Enter your favourite book: ")
