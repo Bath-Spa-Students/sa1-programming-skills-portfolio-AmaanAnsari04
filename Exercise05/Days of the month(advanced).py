@@ -16,7 +16,7 @@ Days = {"1":"31",    #assigning days in the month to the month number
           "12":"31"}
 
 Months = {"1":"January",  #assigning the names of the month to the month number
-          "2":"Feburary", 
+          "2":"February", 
           "3":"March",
           "4":"April",
           "5":"May",
